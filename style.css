@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+.wheel {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 2em;
+}
+
+.wheel img {
+    width: 100%;
+}
+.nav-item:hover {
+    font-size: 44px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 217, 0);
+    border: 5px solid rgb(255, 217, 0);
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.nav-item {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 217, 0);
+    border: 5px solid rgb(255, 217, 0);
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+reviews{
+    width: 870px;
+    float: left;
+} 
+.picture{
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+} 
+.review{
+    border-left: 10px double navy;
+    width: 350px;
+    padding-left: 10px;
+}
+.ere{
+    color: rgb(0, 0, 0);
+    border-bottom: 1px dotted rgb(0, 0, 0);
+}
+.hh{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+.hh:hover{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 0, 221);
+    border: 5px solid rgb(255, 0, 221);
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+.vh{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+.vh:hover{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(0, 217, 255);
+    border: 5px solid rgb(0, 217, 255);
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+.adgj {
+    font-family: sans-serif;
+    background-color: #F5680C;
+}
+.sewer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+nav {
+    display: flex;
+    background-color: #F5680C;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+}
+.pou{
+    padding: 15px;
+    background-color: #F5680C;
+}
+main{
+    background-color: #F5680C;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: #F5680C;
+}
+footer {
+    display: flex;
+    background: #5FC0EC;
+}
+
+footer a {
+    margin-right: 7px;
+}
+
+footer p {
+    font-size: 24px;
+}
+.a{
+    font-size: 30px;
+    text-align: center;
+}
+.aa{
+    margin-top: 70px;
+    font-size: 60px;
+}
+.assortiment{
+    text-align: center;
+    font-size: 40px;
+}
+.assortiment_a{
+    font-size: 20px;
+    
+}
+.meat{
+    text-align: center;
+    font-size: 25px;
+}
+.bank{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 10px ;
+}
+
+.bank:hover{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(30, 255, 0);
+    border: 5px solid rgb(30, 255, 0);
+    border-radius: 10px ;
+}
+
+@media (orientation: portait) and (min-width: 400px) and  (max-width: 800px){
+    main{
+        font-size: 10px;
+    }
+      
+}
