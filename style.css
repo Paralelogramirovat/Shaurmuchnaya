@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
-
 button {
     margin: 20px;
   }
@@ -63,6 +62,7 @@ button {
     transition:800ms ease all;
   }
   
+
 body {
     margin: 0;
     padding: 0;
@@ -81,6 +81,8 @@ body {
 .wheel img {
     width: 100%;
 }
+
+
 
 reviews{
     width: 870px;
